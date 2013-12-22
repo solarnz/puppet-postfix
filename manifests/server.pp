@@ -49,6 +49,7 @@ class postfix::server (
   $masquerade_domains = false,
   $smtpd_sender_restrictions = [],
   $smtpd_recipient_restrictions = [],
+  $smtpd_relay_restrictions = [],
   $smtpd_delay_reject = false,
   $ssl = false,
   $smtpd_tls_key_file = undef,
